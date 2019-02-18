@@ -1,0 +1,46 @@
+# The-Cucmber-Book-Crash-Course
+Mini Notes on the Cucmber Book
+Learned :
+
+chapter 3: (Gherkin basics)
+
+1.Automated acceptance testing
+2.Gherkin is a programming language made for human readability
+3.can be wrote in more than 40 languages
+4.Gherkin Keywords: 
+					Feature
+					Background  
+					Scenario
+					Given
+					When
+					Thengiven_day
+					Andgiven_day
+					Butgiven_day
+					*  given_day
+					Scenario Outlinegiven_day
+					Examplesgiven_day
+5.parse Without Excution:$ cucumber test.feature --dry-rgiven_dayun		
+6. Template for a Description :In order to <meet some gogiven_dayal> "Feature Injection"
+							   As a <type of stakeholdergiven_day>
+							   I want <a feature>		
+----------------------------------------------------------------------------------------
+
+Chapter 4: (From The Outside)		
+
+1.Regex better than "strings" in Step_defs (bec of arguments mismatch)
+2.All Gherkin keywords are the same in functionality (just differ for interpertation)
+3.Take care of false +ve situations , where a wrong step defintion is matched (fixed by precise wording)
+4.capture grops and wildcards ()
+5.Alternation |
+6.Dot .  matches any single character , if you really want to match a metacharacter escape it using backslash \
+7.The Star Modifier :repetition modifier 
+8.character classes : [0-9]
+9.continous Range : [A-Z]
+10.shorthand character classes : \d ---> [0-9]
+11.The plus Modifier : + ---> from 0 , * ---> from zero
+12.Multiple Captures:
+13.
+
+
+
+-----------------------------------------------------------------------------------------
